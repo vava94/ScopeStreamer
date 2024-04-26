@@ -1,0 +1,9 @@
+[submodule "CameraHandler"]
+	path = CameraHandler
+	url = ./CameraHandler
+[submodule "ColorConverter"]
+	path = ColorConverter
+	url = ./ColorConverter/
+[submodule "TCPDude"]
+	path = TCPDude
+	url = https://github.com/vava94/TCPDude
