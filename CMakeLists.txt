@@ -20,7 +20,10 @@ find_package(Qt5 COMPONENTS
 add_subdirectory(CameraHandler)
 add_subdirectory(ColorConverter)
 
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME}
+        main.cpp
+        TCPDude/tcpdude.h
+        TCPDude/tcpdude.cpp)
 
 
 target_link_libraries(${PROJECT_NAME} ColorConverter CameraHandler)#QOnvifManager)
